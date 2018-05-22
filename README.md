@@ -5,9 +5,17 @@ mysql-dca  MySQL docker container architecture
 ```
 docker build -t mysql-dca .
 ```
-# Run Docker container 
+# Run MYSQL Docker container as root
 ```
 docker run -d -p 0.0.0.0:3306:3306 -e MYSQL_ROOT_PASSWORD=unixlabs mysql-dca
+```
+# Run MYSQL Docker container as user
+```
+docker run -d -p 0.0.0.0:3306:3306 -e MYSQL_ROOT_PASSWORD=unixlabs MYSQL_USER=unixlabs mysql-dca
+```
+# Run MYSQL Docker container as user and create a new database 
+```
+docker run -d -p 0.0.0.0:3306:3306 -e MYSQL_ROOT_PASSWORD=unixlabs MYSQL_USER=unixlabs MYSQL_DATABASE=unixlabs mysql-dca
 ```
 
 # Environment variables
