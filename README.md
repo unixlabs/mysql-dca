@@ -1,10 +1,11 @@
 # MySQL-DCA
 mysql-dca  MySQL docker container architecture
 
+# clone souce
+
 # Build Docker image
 ```
 docker build -t mysql-sca .
-
 ```
 # Run Docker container 
 ```
