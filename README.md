@@ -1,5 +1,5 @@
 # MySQL-DCA
-mysql-dca  MySQL docker container architecture for Ubunut 16.04
+mysql-dca  MySQL docker container architecture for Ubunut 14.04
 
 ### Build Docker image
 ```
