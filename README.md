@@ -1,6 +1,10 @@
 # MySQL-DCA
 mysql-dca  MySQL docker container architecture
 
+$Usage: 
+$ git clone ...
+$ docker build -t mysql-sca .
+$ docker run -d -p 0.0.0.0:3306:3306 -e MYSQL_ROOT_PASSWORD=unixlabs mysql-dca
 # Environment variables
 
 MYSQL_ROOT_PASSWORD: The password for the root user. Defaults to a blank password
