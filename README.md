@@ -1,4 +1,4 @@
-# mysql-dca
+# MySQL-DCA
 mysql-dca  MySQL docker container architecture
 
 # Environment variables
