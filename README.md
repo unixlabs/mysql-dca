@@ -1,4 +1,4 @@
-# MySQL-DCA
+# MySQL Docker Image
 mysql-dca  MySQL docker container architecture for Ubunut 14.04
 
 ### Build Docker image
@@ -18,7 +18,7 @@ docker run -d -p 0.0.0.0:3306:3306 -e MYSQL_ROOT_PASSWORD=unixlabs -e MYSQL_USER
 docker run -d -p 0.0.0.0:3306:3306 -e MYSQL_ROOT_PASSWORD=unixlabs -e MYSQL_USER=unixlabs -e MYSQL_PASSWORD=unixlabs@111 -e MYSQL_DATABASE=unixlabs mysql-dca
 ```
 
-### Environment variables
+### Environment variables for MySQL Docker Image
 
 MYSQL_ROOT_PASSWORD: The password for the root user. Defaults to a blank password
 
