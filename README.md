@@ -27,3 +27,24 @@ MYSQL_DATABASE: A database to automatically create. If not provided, does not cr
 MYSQL_USER: A user to create that has access to the database specified by MYSQL_DATABASE.
 
 MYSQL_PASSWORD: The password for MYSQL_USER. Defaults to a blank password.
+
+### Nvm Installation
+
+Install a C++ Compiler
+
+```sh
+$ apt-get update
+$ apt-get install build-essential libssl-dev
+```
+Visit [nvm latest](https://github.com/creationix/nvm/releases) for latest release version of NVM
+```
+$ curl https://raw.githubusercontent.com/creationix/nvm/v0.33.1/install.sh | bash
+$ source ~/.profile
+$ nvm --version
+```
+
+### Node Installation
+```
+$ nvm install v6.8
+$ nvm use v6.8
+```
